@@ -16,7 +16,9 @@ public class User {
     @Column(name = "email")
     private String email;
 
-    // Геттеры и сеттеры
+    public User() {
+    }
+
     public Long getId() {
         return id;
     }
